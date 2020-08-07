@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+CURRENT=$(codium --list-extensions)
+INFILE=$(cat extensions.txt)
+
+if [ "$CURRENT" == "$INFILE" ]; then
+    exit 0
+else
+    echo "Extensions file out-of-date, launch 'codium --list-extensions > extensions.txt'"
+    exit 1
+fi

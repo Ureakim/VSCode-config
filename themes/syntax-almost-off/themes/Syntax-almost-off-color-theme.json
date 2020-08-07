@@ -1,0 +1,12 @@
+{
+	"tokenColors": "./Syntax-almost-off.tmTheme",
+	"colors": {
+		"editor.background": "#262626",
+		"editorCursor.foreground": "#B2B2B2",
+		"editor.foreground": "#B2B2B2",
+		"editorWhitespace.foreground": "#3B3A32",
+		"editor.lineHighlightBackground": "#121212",
+		"editor.selectionBackground": "#3A3A3A",
+	},
+	"name": "Syntax-almost-off"
+}
