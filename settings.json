@@ -21,5 +21,22 @@
     "workbench.settings.enableNaturalLanguageSearch": false,
     "npm.fetchOnlinePackageInfo": false,
     "editor.codeLens": false,
-    "editor.insertSpaces": false
+    "editor.insertSpaces": false,
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": "#333333",
+    "vim.statusBarColors.insert": "#121212",
+    "vim.statusBarColors.visual": "#333333",
+    "vim.statusBarColors.visualline": "#333333",
+    "vim.statusBarColors.visualblock": "#333333",
+    "vim.statusBarColors.replace": "#121212",
+    "vim.statusBarColors.commandlineinprogress": "#121212",
+    "vim.statusBarColors.searchinprogressmode": "#333333",
+    "vim.statusBarColors.easymotionmode": "#333333",
+    "vim.statusBarColors.easymotioninputmode": "#333333",
+    "vim.statusBarColors.surroundinputmode": "#121212",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#333333",
+        "statusBar.noFolderBackground": "#333333",
+        "statusBar.debuggingBackground": "#333333"
+    }
 }

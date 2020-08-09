@@ -1,12 +1,115 @@
 {
-	"tokenColors": "./Syntax-almost-off.tmTheme",
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#585858",
+				"fontStyle": " italic"
+			}
+		},
+		{
+			"name": "Value",
+			"scope": [
+				"string",
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#e4e4e4",
+				"fontStyle": " italic"
+			}
+		},
+		{
+			"name": "Token",
+			"scope": [
+				"keyword",
+				"storage",
+				"storage.type"
+			],
+			"settings": {
+				"foreground": "#808080",
+				"fontStyle": " bold"
+			}
+		},
+		{
+			"name": "Struct",
+			"scope": [
+				"entity.name.class",
+				"entity.other.inherited-class",
+				"support.type",
+				"support.class"
+			],
+			"settings": {
+				"foreground": "#b2b2b2",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": [
+				"constant.language",
+				"constant.character",
+				"constant.other",
+				"variable",
+				"variable.parameter",
+				"support.constant",
+				"support.other.variable"
+			],
+			"settings": {
+				"foreground": "#b2b2b2",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": [
+				"entity.name.function",
+				"support.function"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#b2b2b2"
+			}
+		},
+		{
+			"name": "Tag name",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#ADADAD",
+				"fontStyle": " bold"
+			}
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#ADADAD"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#D08770"
+			}
+		},
+		{
+			"name": "Invalid deprecated",
+			"scope": "invalid.deprecated",
+			"settings": {
+				"foreground": "#D08770",
+				"fontStyle": " italic"
+			}
+		}
+	],
 	"colors": {
 		"editor.background": "#262626",
-		"editorCursor.foreground": "#B2B2B2",
-		"editor.foreground": "#B2B2B2",
-		"editorWhitespace.foreground": "#3B3A32",
+		"editorCursor.foreground": "#DBDBDB",
+		"editor.foreground": "#DBDBDB",
+		"editorWhitespace.foreground": "#121212",
 		"editor.lineHighlightBackground": "#121212",
-		"editor.selectionBackground": "#3A3A3A",
+		"editor.selectionBackground": "#3A3A3A"
 	},
 	"name": "Syntax-almost-off"
 }
