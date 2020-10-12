@@ -46,5 +46,7 @@
 	"files.enableTrash": false,
 	"workbench.startupEditor": "newUntitledFile",
 	"diffEditor.ignoreTrimWhitespace": true,
-	"window.zoomLevel": 0
+	"window.zoomLevel": 0,
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true
 }
