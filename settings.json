@@ -33,7 +33,7 @@
 	"vim.statusBarColors.easymotioninputmode": "#333333",
 	"vim.statusBarColors.surroundinputmode": "#121212",
 	"[rust]": {
-		"editor.defaultFormatter": "rust-lang.rust",
+		"editor.defaultFormatter": "matklad.rust-analyzer",
 	},
 	"workbench.colorCustomizations": {
 		"statusBar.background": "#333333",
@@ -48,5 +48,12 @@
 	"diffEditor.ignoreTrimWhitespace": true,
 	"window.zoomLevel": 0,
 	"files.insertFinalNewline": true,
-	"files.trimFinalNewlines": true
+	"files.trimFinalNewlines": true,
+	"workbench.tree.indent": 10,
+	"workbench.tree.renderIndentGuides": "always",
+	"files.watcherExclude": {
+		"**/target/**": true
+	},
+	"rust-analyzer.inlayHints.enable": false,
+	"editor.fontLigatures": true
 }
