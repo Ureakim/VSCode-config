@@ -1,0 +1,111 @@
+{
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#b6ae8d",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword",
+				"storage"
+			],
+			"settings": {
+				"foreground": "#89a6db",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"name": "Value",
+			"scope": [
+				"string",
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#89a6db",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Struct",
+			"scope": [
+				"entity.name.class",
+				"entity.other.inherited-class",
+				"support.type",
+				"support.class",
+				"entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#9589db",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": [
+				"entity.name.function",
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#9589db",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Constant",
+			"scope": [
+				"constant",
+				"support.constant"
+			],
+			"settings": {
+				"foreground": "#be89db",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": [
+				"variable",
+				"support.other.variable",
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#be89db",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": [
+				"invalid"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#f47171"
+			}
+		},
+		{
+			"name": "Invalid deprecated",
+			"scope": [
+				"invalid.deprecated",
+			],
+			"settings": {
+				"foreground": "#f4c671",
+				"fontStyle": " italic underline"
+			}
+		}
+	],
+	"colors": {
+		"editor.background": "#262626",
+		"editorCursor.foreground": "#b2b2b2",
+		"editor.foreground": "#b2b2b2",
+		"editorWhitespace.foreground": "#121212",
+		"editor.lineHighlightBackground": "#121212",
+		"editor.selectionBackground": "#3A3A3A"
+	},
+	"name": "Nebulae"
+}

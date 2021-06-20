@@ -5,11 +5,10 @@
 	"editor.formatOnSave": true,
 	"editor.minimap.enabled": false,
 	"workbench.enableExperiments": false,
-	"workbench.iconTheme": "vs-minimal",
 	"workbench.tips.enabled": false,
 	"editor.quickSuggestions": false,
 	"editor.suggestOnTriggerCharacters": false,
-	"workbench.colorTheme": "Syntax-almost-off",
+	"workbench.colorTheme": "Nebulae",
 	"editor.renderLineHighlight": "all",
 	"editor.renderLineHighlightOnlyWhenFocus": true,
 	"window.restoreWindows": "none",
@@ -54,5 +53,6 @@
 		"**/target/**": true
 	},
 	"rust-analyzer.inlayHints.enable": false,
-	"editor.fontLigatures": true
+	"editor.fontLigatures": true,
+	"workbench.editor.untitled.hint": "hidden"
 }
