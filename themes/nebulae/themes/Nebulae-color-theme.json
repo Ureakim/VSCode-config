@@ -15,7 +15,7 @@
 				"storage"
 			],
 			"settings": {
-				"foreground": "#89a6db",
+				"foreground": "#a79a88",
 				"fontStyle": "bold italic"
 			}
 		},
@@ -26,7 +26,7 @@
 				"constant.numeric"
 			],
 			"settings": {
-				"foreground": "#89a6db",
+				"foreground": "#977e78",
 				"fontStyle": ""
 			}
 		},
@@ -40,7 +40,7 @@
 				"entity.name.tag"
 			],
 			"settings": {
-				"foreground": "#9589db",
+				"foreground": "#6a8599",
 				"fontStyle": "bold"
 			}
 		},
@@ -51,7 +51,7 @@
 				"support.function"
 			],
 			"settings": {
-				"foreground": "#9589db",
+				"foreground": "#6a8599",
 				"fontStyle": "italic"
 			}
 		},
@@ -62,7 +62,7 @@
 				"support.constant"
 			],
 			"settings": {
-				"foreground": "#be89db",
+				"foreground": "#9e85ac",
 				"fontStyle": "bold"
 			}
 		},
@@ -74,7 +74,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#be89db",
+				"foreground": "#9e85ac",
 				"fontStyle": ""
 			}
 		},
@@ -85,7 +85,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#f47171"
+				"foreground": "#e57b73"
 			}
 		},
 		{
@@ -94,7 +94,7 @@
 				"invalid.deprecated",
 			],
 			"settings": {
-				"foreground": "#f4c671",
+				"foreground": "#dba95a",
 				"fontStyle": " italic underline"
 			}
 		}

@@ -54,5 +54,7 @@
 	},
 	"rust-analyzer.inlayHints.enable": false,
 	"editor.fontLigatures": true,
-	"workbench.editor.untitled.hint": "hidden"
+	"workbench.editor.untitled.hint": "hidden",
+	"telemetry.enableCrashReporter": false,
+	"telemetry.enableTelemetry": false
 }
