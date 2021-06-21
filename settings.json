@@ -56,5 +56,7 @@
 	"editor.fontLigatures": true,
 	"workbench.editor.untitled.hint": "hidden",
 	"telemetry.enableCrashReporter": false,
-	"telemetry.enableTelemetry": false
+	"telemetry.enableTelemetry": false,
+	"http.proxySupport": "off",
+	"liveshare.presence": true
 }
