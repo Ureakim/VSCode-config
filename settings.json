@@ -6,7 +6,11 @@
 	"editor.minimap.enabled": false,
 	"workbench.enableExperiments": false,
 	"workbench.tips.enabled": false,
-	"editor.quickSuggestions": false,
+	"editor.quickSuggestions": {
+		"comments": "off",
+		"strings": "off",
+		"other": "off"
+	},
 	"editor.suggestOnTriggerCharacters": false,
 	"workbench.colorTheme": "Nebulae",
 	"editor.renderLineHighlight": "all",
@@ -58,4 +62,5 @@
 	"http.proxySupport": "off",
 	"liveshare.presence": false,
 	"workbench.tree.indent": 15,
+	"editor.stickyScroll.enabled": true,
 }
