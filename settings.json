@@ -63,4 +63,5 @@
 	"liveshare.presence": false,
 	"workbench.tree.indent": 15,
 	"editor.stickyScroll.enabled": true,
+	"telemetry.telemetryLevel": "off",
 }
